@@ -3,8 +3,15 @@
     "description": "SASS based version of Magento 2 Blank theme",
     "license": "MIT",
     "type": "magento2-theme",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/splashlab/magento-2-sass-preprocessor"
+        }
+    ],
     "require": {
-        "magento/framework": "^101.0.0|^102.0.0"
+        "magento/framework": "^101.0.0|^102.0.0",
+        "splashlab/magento-2-sass-preprocessor": "dev-master"
     },
     "autoload": {
         "files": [
